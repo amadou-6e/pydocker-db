@@ -5,8 +5,8 @@ py-dockerdb
 
 |Build| |PyPI| |License|
 
-.. |Build| image:: https://img.shields.io/github/actions/workflow/status/amadou-6e/docker-db/cicd.yml?branch=main&label=tests
-   :target: https://github.com/amadou-6e/docker-db/actions/workflows/cicd.yml
+.. |Build| image:: https://img.shields.io/github/actions/workflow/status/amadou-6e/pydocker-db/cicd.yml?branch=main&label=tests
+   :target: https://github.com/amadou-6e/pydocker-db/actions/workflows/cicd.yml
 .. |PyPI| image:: https://img.shields.io/pypi/v/py-dockerdb
    :target: https://pypi.org/project/py-dockerdb/
 .. |License| image:: https://img.shields.io/badge/license-MIT-lightgrey
@@ -46,10 +46,9 @@ Where To Go Next
    source/modules
 
 - Usage notebooks:
-  `db_management_example.ipynb <https://github.com/amadou-6e/docker-db/blob/main/usage/db_management_example.ipynb>`_
-  `postgres_example.ipynb <https://github.com/amadou-6e/docker-db/blob/main/usage/postgres_example.ipynb>`_
-  `mysql_example.ipynb <https://github.com/amadou-6e/docker-db/blob/main/usage/mysql_example.ipynb>`_
-  `mongo_example.ipynb <https://github.com/amadou-6e/docker-db/blob/main/usage/mongo_example.ipynb>`_
-  `mssql_example.ipynb <https://github.com/amadou-6e/docker-db/blob/main/usage/mssql_example.ipynb>`_
-  `redis_example.ipynb <https://github.com/amadou-6e/docker-db/blob/main/usage/redis_example.ipynb>`_
-  `neo4j_example.ipynb <https://github.com/amadou-6e/docker-db/blob/main/usage/neo4j_example.ipynb>`_
+  `postgres_example.ipynb <https://github.com/amadou-6e/pydocker-db/blob/main/usage/postgres_example.ipynb>`_
+  `mysql_example.ipynb <https://github.com/amadou-6e/pydocker-db/blob/main/usage/mysql_example.ipynb>`_
+  `mongo_example.ipynb <https://github.com/amadou-6e/pydocker-db/blob/main/usage/mongo_example.ipynb>`_
+  `mssql_example.ipynb <https://github.com/amadou-6e/pydocker-db/blob/main/usage/mssql_example.ipynb>`_
+  `redis_example.ipynb <https://github.com/amadou-6e/pydocker-db/blob/main/usage/redis_example.ipynb>`_
+  `neo4j_example.ipynb <https://github.com/amadou-6e/pydocker-db/blob/main/usage/neo4j_example.ipynb>`_

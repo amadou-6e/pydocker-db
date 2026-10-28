@@ -71,22 +71,20 @@ You used the core lifecycle pattern visible across the library: define a config 
 Next Steps
 ----------
 
-- `db_management_example.ipynb <https://github.com/amadou-6e/docker-db/blob/main/usage/db_management_example.ipynb>`_:
-  container lifecycle behavior and restart patterns.
-- `postgres_example.ipynb <https://github.com/amadou-6e/docker-db/blob/main/usage/postgres_example.ipynb>`_:
+- `postgres_example.ipynb <https://github.com/amadou-6e/pydocker-db/blob/main/usage/postgres_example.ipynb>`_:
   PostgreSQL setup with SQL notebook flow and seeded data.
-- `mysql_example.ipynb <https://github.com/amadou-6e/docker-db/blob/main/usage/mysql_example.ipynb>`_:
+- `mysql_example.ipynb <https://github.com/amadou-6e/pydocker-db/blob/main/usage/mysql_example.ipynb>`_:
   MySQL setup and SQL workflow examples.
-- `mongo_example.ipynb <https://github.com/amadou-6e/docker-db/blob/main/usage/mongo_example.ipynb>`_:
+- `mongo_example.ipynb <https://github.com/amadou-6e/pydocker-db/blob/main/usage/mongo_example.ipynb>`_:
   MongoDB CRUD and collection examples.
-- `mssql_example.ipynb <https://github.com/amadou-6e/docker-db/blob/main/usage/mssql_example.ipynb>`_:
+- `mssql_example.ipynb <https://github.com/amadou-6e/pydocker-db/blob/main/usage/mssql_example.ipynb>`_:
   MSSQL setup and query workflow.
-- `redis_example.ipynb <https://github.com/amadou-6e/docker-db/blob/main/usage/redis_example.ipynb>`_:
+- `redis_example.ipynb <https://github.com/amadou-6e/pydocker-db/blob/main/usage/redis_example.ipynb>`_:
   Redis key-value store and caching examples.
-- `neo4j_example.ipynb <https://github.com/amadou-6e/docker-db/blob/main/usage/neo4j_example.ipynb>`_:
+- `neo4j_example.ipynb <https://github.com/amadou-6e/pydocker-db/blob/main/usage/neo4j_example.ipynb>`_:
   Neo4j knowledge graph setup, node/relationship queries, and GraphRAG with LlamaIndex.
-- `pgvector_rag_example.ipynb <https://github.com/amadou-6e/docker-db/blob/main/usage/pgvector_rag_example.ipynb>`_:
+- `pgvector_rag_example.ipynb <https://github.com/amadou-6e/pydocker-db/blob/main/usage/pgvector_rag_example.ipynb>`_:
   pgvector RAG pipeline with LlamaIndex vector store.
-- `ollama_example.ipynb <https://github.com/amadou-6e/docker-db/blob/main/usage/ollama_example.ipynb>`_:
+- `ollama_example.ipynb <https://github.com/amadou-6e/pydocker-db/blob/main/usage/ollama_example.ipynb>`_:
   Ollama local LLM container setup and model inference.
 - API reference: :doc:`source/modules`
