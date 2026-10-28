@@ -2,7 +2,7 @@
 
 *Pythonic Docker database management for notebooks, tutorials, and fast MVPs.*
 
-[![Build](https://img.shields.io/github/actions/workflow/status/amadou-6e/docker-db/cicd.yml?branch=main&label=tests)](https://github.com/amadou-6e/docker-db/actions/workflows/cicd.yml)
+[![Build](https://img.shields.io/github/actions/workflow/status/amadou-6e/pydocker-db/cicd.yml?branch=main&label=tests)](https://github.com/amadou-6e/pydocker-db/actions/workflows/cicd.yml)
 [![PyPI](https://img.shields.io/pypi/v/py-dockerdb)](https://pypi.org/project/py-dockerdb/)
 [![License](https://img.shields.io/badge/license-MIT-lightgrey)](./LICENSE)
 [![Docs](https://img.shields.io/badge/docs-GitHub%20Pages-blue)](https://amadou-6e.github.io/py-docker/introduction.html)
@@ -122,8 +122,8 @@ Full runnable notebooks are in [`usage/`](./usage/):
 ## Development
 
 ```bash
-git clone https://github.com/amadou-6e/docker-db.git
-cd docker-db
+git clone https://github.com/amadou-6e/pydocker-db.git
+cd pydocker-db
 pip install -e ".[test]"
 ```
 

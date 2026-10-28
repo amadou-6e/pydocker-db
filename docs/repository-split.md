@@ -16,4 +16,7 @@ its own publisher or appropriately scoped upload credential. Name registration
 is not guaranteed by a missing PyPI page. Do not publish before review, fresh
 installation, upgrade/uninstall checks and the real database CI suite pass.
 
-No release of the new runtime should trigger database publication.
+Automatic publication is disabled during this transition. CI builds and validates
+both distributions, including the alias extras for graph, rag and test. No release
+of the new runtime should trigger database publication. Existing default driver
+dependencies and database source remain unchanged in this extraction.

@@ -2,10 +2,7 @@ name: Test On Deploy
 
 on:
   push:
-    branches:
-      - "*"
-  release:
-    types: [published]
+  pull_request:
 
 permissions:
   contents: read
@@ -74,30 +71,20 @@ jobs:
       - name: Run tests
         run: python -m pytest -vv -s --timeout=600 --timeout-method=thread ${{ matrix.test_file }}
 
-  publish:
-    name: Publish to PyPI
-    needs: tests
+  packages:
+    name: Validate canonical and alias packages
     runs-on: ubuntu-latest
-    if: github.event_name == 'release' && github.event.action == 'published'
-    environment:
-      name: pypi
-      url: https://pypi.org/p/py-dockerdb
-    permissions:
-      id-token: write
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-
-      - name: Build package
+      - name: Build and validate both packages
         run: |
-          python -m pip install build
+          python -m pip install build twine
           python -m build
-
-      - name: Publish to PyPI
-        uses: pypa/gh-action-pypi-publish@release/v1
+          python -m build distributions/pydocker-db
+          python -m twine check dist/* distributions/pydocker-db/dist/*
+# Automatic publication is disabled during the repository/publisher transition.

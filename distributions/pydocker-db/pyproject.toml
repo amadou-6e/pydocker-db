@@ -12,6 +12,11 @@ license = "MIT"
 license-files = ["LICENSE"]
 dependencies = ["py-dockerdb>=1.0.1,<2"]
 
+[project.optional-dependencies]
+graph = ["py-dockerdb[graph]>=1.0.1,<2"]
+rag = ["py-dockerdb[rag]>=1.0.1,<2"]
+test = ["py-dockerdb[test]>=1.0.1,<2"]
+
 [project.urls]
 Homepage = "https://github.com/amadou-6e/pydocker-db"
 
