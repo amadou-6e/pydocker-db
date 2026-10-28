@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "py-dockerdb"
-version = "1.0.0"
+version = "1.0.1"
 description = "Provision Docker databases in Python — Postgres, Neo4j, MongoDB, MySQL, MSSQL with a unified one-call API"
 readme = { file = "README.md", content-type = "text/markdown" }
 requires-python = ">=3.10"
@@ -14,6 +14,7 @@ authors = [
 dependencies = [
   "psycopg2-binary",
   "docker",
+  "requests",
   "pymongo",
   "pydantic",
   "pyodbc",
@@ -40,7 +41,7 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/amadou-6e/docker-db.git"
+Homepage = "https://github.com/amadou-6e/pydocker-db"
 
 [project.optional-dependencies]
 test = [
